@@ -125,10 +125,17 @@
     }
     .stars-container{
         display: block;
-        /* border: 2px solid blue; */
     }
     .star-card{
         width: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .stars-itself {
+        margin: 0 30px;
+    }
+    .stars-itself img {
+        padding-right: 5px;
     }
     #star-card-one {
         margin-left: 100px;
@@ -215,6 +222,14 @@
     }
     .star-card{
         width: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .stars-itself {
+        margin: 0 30px;
+    }
+    .stars-itself img {
+        padding-right: 5px;
     }
     #star-card-one {
         margin-left: 100px;
